@@ -1,0 +1,30 @@
+1. What is the difference between 'git merge' and 'git rebase'?
+2. How do you undo the last commit but keep the changes staged?
+3. How can you list all branches, including remote ones?
+4. What is the purpose of 'git stash' and how do you apply stashed changes?
+5. How do you safely force push a branch to avoid overwriting others’ work?
+6. Explain 'HEAD' in Git.
+7. What’s the difference between 'git pull' and 'git fetch'?
+8. How can you revert a commit in a public repository?
+9. When should you use 'git reset --hard'?
+10. What does 'git reflog' do?
+11. How do you squash multiple commits into one before pushing?
+12. What is a detached HEAD state?
+13. How do you recover a deleted branch?
+14. What is the difference between 'git log' and 'git log --oneline --graph --decorate --all'?
+15. How do you find which commit introduced a bug?
+16. Explain the difference between tracked and untracked files.
+17. How do you unstage a file without losing changes?
+18. How do you rename a branch locally and remotely?
+19. What is a fast-forward merge?
+20. How can you temporarily switch branches without committing changes?
+21. What is the purpose of '.gitignore'?
+22. How do you create and push an annotated tag?
+23. How do you configure a global Git alias?
+24. Explain the difference between 'git clone' and 'git init'.
+25. How do you handle merge conflicts?
+26. How do you set up a pre-commit hook?
+27. What’s the difference between 'origin' and 'upstream' remotes?
+28. How can you view the changes introduced by a specific commit?
+29. What is 'git bisect' used for?
+30. How do you remove the last commit entirely from history?

@@ -1,0 +1,30 @@
+1. Merge: keeps history, creates merge commit; Rebase: rewrites commits on top of new base, cleaner history.
+2. git reset --soft HEAD~1
+3. git branch -a
+4. Stash saves uncommitted changes; apply with git stash apply or git stash pop
+5. git push --force-with-lease
+6. Pointer to current commit (and branch reference)
+7. pull = fetch + merge; fetch = only download refs
+8. git revert <sha>
+9. When you want to discard changes completely and reset to a commit; dangerous if used carelessly
+10. Shows history of where HEAD has been; useful for recovery
+11. git rebase -i HEAD~n then squash
+12. HEAD points to a commit not on any branch
+13. git reflog, then git branch <name> <sha>
+14. log shows detailed commits; --oneline --graph --decorate --all shows compact graph with decorations
+15. git bisect
+16. Tracked: in Git index; Untracked: not staged for commit
+17. git restore --staged <file>
+18. git branch -m old new; git push origin :old new; git push origin -u new
+19. Merge where HEAD can be moved forward without creating a merge commit
+20. git stash; git switch branch; git stash pop
+21. Specifies files for Git to ignore
+22. git tag -a v1.0 -m 'msg'; git push origin v1.0
+23. git config --global alias.co checkout
+24. clone copies an existing repo; init creates new empty repo
+25. Manually edit conflicts, then git add and git commit
+26. Place script in .git/hooks/pre-commit and make it executable
+27. origin: your fork; upstream: original repo you forked from
+28. git show <sha>
+29. To binary search commits for bug introduction
+30. git reset --hard HEAD~1
